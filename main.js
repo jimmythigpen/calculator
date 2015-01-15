@@ -3,7 +3,8 @@ var displayedNumber;
 var calculatedNumber;
 
 function numberPressed(number) {
-
+  console.log(operation)
+  displayedNumber = number;
   if (operation == '+') {
     calculatedNumber = calculatedNumber + number;
     operation = null;
@@ -18,7 +19,6 @@ function numberPressed(number) {
     operation = null;
   } else {
     displayedNumber = calculatedNumber = number;
-
   }
 
   document.getElementById('result').textContent = displayedNumber;
