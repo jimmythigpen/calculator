@@ -1,0 +1,69 @@
+html {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+
+*, *:before, *:after {
+  -webkit-box-sizing: inherit;
+  -moz-box-sizing: inherit;
+  box-sizing: inherit; }
+
+body {
+  background-color: #f6f6f6; }
+
+.container {
+  max-width: 400px;
+  margin-left: auto;
+  margin-right: auto; }
+  .container::after {
+    clear: both;
+    content: "";
+    display: table; }
+
+.first-column {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 23.23176%;
+  text-align: center; }
+  .first-column:last-child {
+    margin-right: 0; }
+
+.second-column {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 23.23176%;
+  text-align: center; }
+  .second-column:last-child {
+    margin-right: 0; }
+
+.third-column {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 23.23176%;
+  text-align: center; }
+  .third-column:last-child {
+    margin-right: 0; }
+
+.fourth-column {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 23.23176%;
+  text-align: center; }
+  .fourth-column:last-child {
+    margin-right: 0; }
+
+button {
+  height: 30px;
+  width: 80px; }
+
+#equals {
+  margin-top: 10px; }
+
+#result {
+  margin-top: 10px; }
+
+/*# sourceMappingURL=main.css.map */

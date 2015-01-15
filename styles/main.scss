@@ -1,0 +1,42 @@
+@import 'bourbon/bourbon';
+@import 'neat/neat';
+
+body {
+  background-color: #f6f6f6;
+
+}
+.container {
+  @include outer-container (400px);
+
+}
+.first-column {
+  @include span-columns (3);
+  text-align: center;
+
+}
+.second-column {
+  @include span-columns (3);
+  text-align: center;
+}
+.third-column {
+  @include span-columns (3);
+  text-align: center;
+
+}
+.fourth-column {
+  @include span-columns (3);
+  text-align: center;
+
+}
+button {
+  height: 30px;
+  width: 80px;
+
+}
+#equals {
+  margin-top: 10px;
+
+}
+#result {
+  margin-top: 10px;
+}
