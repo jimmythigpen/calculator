@@ -26,7 +26,8 @@ function numberPressed(number) {
 
 function zeroPressed(event) {
   event.preventDefault();
-  numberPressed(Number(0));
+  numberPressed(Number(0));  
+
 }
 
 function onePressed(event) {
